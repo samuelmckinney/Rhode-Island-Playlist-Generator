@@ -1,0 +1,28 @@
+YOUR RHODE ISLAND PLAYLIST GENERATOR:
+
+Project for WBRU to populate its website with weekly Spotify Playlists containing all the most popular music acts that will be within 70 miles of Providence
+
+Flow:
+
+Query Songkick for Providence's City ID
+Query Songkick for shows in the PVD metro area (within 70 miles as to include Boston)
+
+Search Spotify for each of the artists
+Order by popularity using spotify stream data
+Take top track from top 25 artists
+Create, Name, and Populate playlist with these 25 tracks
+Post to website/social media to gain traction
+
+
+
+Tools:
+
+Songkick API (non-commercial license)
+Spotify API (non-commercial license)
+Spotipy - library for easily using the Spotify API
+Python - scripting language to complete the REST-ful queries.
+
+current status:
+
+Getting search results from spotipy
+Just got songkick API Key
